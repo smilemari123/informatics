@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <math.h>
 
-int main()
+int main(void)
 {
     char c, m[64]={};
     int i = 0, fl = 0, a = 0, b = 0, x =0, y = 0; 
