@@ -35,14 +35,14 @@ int main()
     i = 0;
     fl = a - 1; 
     while (i < a){ 
-        x += (m[i++] - '0')*pow(10, fl--);
+        x += (m[i++] - '0') * pow(10, fl--);
     }
     
     //число после точки
     ++i;
     fl = b - 1;
     while (i < a + b + 1){
-        y += (m[i++] - '0')*pow(10, fl--);
+        y += (m[i++] - '0') * pow(10, fl--);
     }
     printf("%d | %d", x, y);
     
